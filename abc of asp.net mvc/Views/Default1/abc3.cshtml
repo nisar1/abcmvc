@@ -1,0 +1,30 @@
+﻿@model abc_of_asp.net_mvc.Models.Customer
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>abc3</title>
+</head>
+<body>
+    <div>
+        The customer id is @Model.Amount
+        <br />
+        The customer Code is @Model.Code
+        <br />
+        @if (Model.Amount > 1000)
+        {
+            <span>Previlage userrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr</span>
+        }
+        else
+        {
+            <span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
+        }
+    </div>
+</body>
+</html>
